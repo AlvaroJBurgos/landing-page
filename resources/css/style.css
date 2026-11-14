@@ -19,6 +19,11 @@ body {
 
 .third-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
 }
 
 .header {
@@ -125,3 +130,18 @@ button {
     /* padding-bottom: 20px; */
     margin-bottom: 20px;
 }
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+ .author {
+    /* text-align: end; either way works */ 
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 22px;
+ }
