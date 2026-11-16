@@ -26,6 +26,13 @@ body {
     padding: 100px;
 }
 
+.forth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -144,4 +151,33 @@ button {
     padding: 10px;
     font-weight: 900;
     font-size: 22px;
+ }
+
+ .forth-section {
+        margin: 40px 60px;
+ }
+
+ .forth-section .container {
+    background-color: #3882F6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 40px 30px;
+    /* margin: 50px; */
+    border-radius: 8px;
+    color: #E5E7EB;
+    flex: 1 1 auto;
+    /* gap: 100px; */
+ }
+
+ .text .title {
+    font-size: 22px;
+    font-weight: 600;
+ }
+
+ .forth-section button {
+    border: 2px solid #E5E7EB;
+    font-size: 14px;
+    padding: 6px 30px;
+    /* border: 6px solid maroon; */
  }
